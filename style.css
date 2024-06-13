@@ -9,7 +9,7 @@
 }
 
 .image-container img {
-    height: 581.15px
+    height: 581.15px;
 }
 
 .right-container {
@@ -20,9 +20,10 @@
 
 .first-one {
     border: 2px solid grey;
-    height: 350px;
-    width: 407px;
+    height: 310px;
+    width: 300px;
     padding: 20px 10px;
+    text-align: center;
 }
 
 .first-one h1 {
@@ -41,19 +42,23 @@
 
 .login-button {
     color: white;
-    background-color: #5aa7ff;
+    background-color: #4CB4F8;
     padding: 10px 0;
-    width: 80%;
+    width: 264px;
+    height: 31px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     align-items: center;
-    margin: 0 0 10 10px;
+    margin: 0 0 10 20px;
 }
 
 .or-text {
     text-align: center;
     color: grey;
+    font-size: 15px;
+
 }
+
 
 .login-forgot-div {
     text-align: center;
@@ -61,15 +66,58 @@
 
 /* login forget pw section*/
 .fb-login {
+    font-size: 16px;
     text-decoration: none;
     color: #385185;
+
 }
 
 .forgot-pw {
+    font-size: 14px;
     text-decoration: none;
     color: #00376B;
 }
 
-.get-app>img {
-    height: 2em;
+.get-app>a>img {
+    height: 40px;
+    margin-top: 5%;
+}
+
+.sign-up {
+    margin-top: 7px;
+    border: 2px solid grey;
+    height: 15px;
+    width: 300px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.get-app {
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #737373;
+    cursor: pointer;
+    justify-content: space-between;
+    text-align: center;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 200px;
+
+
+}
+
+.meta-footer {
+    word-spacing: 13px;
+}
+
+.lan {
+    display: inline-flex;
+
+
 }
