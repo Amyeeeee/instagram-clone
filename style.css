@@ -6,23 +6,26 @@
 .main-container {
     display: flex;
     justify-content: center;
+    margin: 8%;
 }
 
 .image-container img {
-    height: 581.15px;
+    height: 591.15px;
+    width: 460px;
 }
 
 .right-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin:2%;
 }
 
 .first-one {
     border: 2px solid grey;
     height: 310px;
     width: 300px;
-    padding: 20px 10px;
+    padding: 20px 14px;
     text-align: center;
 }
 
@@ -107,17 +110,23 @@
     text-align: center;
     align-items: stretch;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 3%;
+
 
 
 }
 
 .meta-footer {
     word-spacing: 13px;
+  
 }
 
 .lan {
     display: inline-flex;
+    
 
-
+}
+#language{
+    border:none;
+    color: #737373;
 }
